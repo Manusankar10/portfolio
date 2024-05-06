@@ -11,8 +11,8 @@ class KnowledgeText extends StatelessWidget {
       padding: const EdgeInsets.only(bottom: defaultPadding/2),
       child: Row(
         children: [
-          SvgPicture.asset('assets/icons/check.svg'),
-          SizedBox(width: defaultPadding/2,),
+          Image.asset('../../../../../assets/images/check.png'),
+          const SizedBox(width: defaultPadding/2,),
           Text(knowledge),
         ],
       ),
